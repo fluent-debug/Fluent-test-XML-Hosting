@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Orders>
+  <Order>
+    <!-- Core IDs -->
+    <OrderId>S007686665</OrderId>                <!-- LEDGER/ID -->
+    <OrderUniqueId>S007686665-001</OrderUniqueId> <!-- ED_UNIQUE_ID -->
+    <CustomerNumber>675</CustomerNumber>         <!-- ED_DOLLAR_ENTITY -->
+    <CustomerPONumber>1079191</CustomerPONumber> <!-- ED_TRANSACTION_ID -->
+    <InvoiceNumber>1</InvoiceNumber>             <!-- ED_INVOICE_NUMBER -->
+    <ARId>S007686665.001</ARId>                  <!-- ED_AR_ID -->
+	<ED_LOGO>http://www.epicor.com/globalassets/uploadedimages/shared/epicor-logo.svg</ED_LOGO>
+	<ED_LOGO2>https://ideadigitalasset.com/DAMRoot/Original/12207/12056_OLYAGT9M7WRDFS4J.jpg</ED_LOGO2>
+    
+	<!-- Form / Printing -->
+    <FormName>ShipTicketImages0Columns</FormName>  <!-- ED_FORM_BRANCH -->
+    <FormIsCustom>1</FormIsCustom>                 <!-- ED_FORM_IS_CUSTOM -->
+    <FormHideTotals>1</FormHideTotals>             <!-- ED_FORM_HIDE_TOTALS -->
+    <PrinterPath>Generic PostScript Printer</PrinterPath> <!-- ED_PRINTER_PATH -->
+    <PrinterTray>Automatically Select</PrinterTray>       <!-- ED_TRAY_ID -->
+    <PaperType>Letter</PaperType>                         <!-- ED_PAPER_TYPE -->
+
+    <!-- Dates -->
+    <OrderDate>12/06/2024</OrderDate>             <!-- ED_ORDER_DATE -->
+    <RequiredDate>12/06/2024</RequiredDate>       <!-- ED_REQUIRED_DATE -->
+    <ShipDate>12/13/2024</ShipDate>               <!-- ED_SHIP_DATE -->
+    <GLDate>12/13/2024</GLDate>                   <!-- ED_GL_DATE -->
+    <BidExpirationDate>01/05/2025</BidExpirationDate> <!-- ED_BID_EXPIRATION_DT -->
+    <DiscountDate>12/23/2024</DiscountDate>       <!-- LEDGER-ED_AR_ID/ED_DISCOUNT_DATE -->
+    <DueDate>01/12/2025</DueDate>                 <!-- LEDGER-ED_AR_ID/ED_DUE_DATE -->
+
+    <!-- Status / Doc -->
+    <OrderStatus>I</OrderStatus>                  <!-- ED_ORDER_STATUS -->
+    <DocType>SALES.SHIP</DocType>                 <!-- ED_DOC_TYPE -->
+	<DocumentType>Ship Ticket</DocumentType>
+
+    <!-- Job info (empty in source) -->
+    <JobName></JobName>
+    <JobDescription></JobDescription>
+
+    <!-- People -->
+    <SalespersonCode>CMOHNS</SalespersonCode>     <!-- ED_OUT_SALESPERSON -->
+    <SalespersonName>MOHNS, CARL</SalespersonName> <!-- LEDGER-ED_OUT_SALESPERSON/ED_NAME -->
+    <WriterCode>APACER</WriterCode>               <!-- ED_WRITER -->
+    <WriterName>PACER, AUGUSTE</WriterName>       <!-- LEDGER-ED_WRITER/ED_NAME -->
+    <OrderedBy>BRYN LARSON</OrderedBy>            <!-- ED_ORDERED_BY -->
+    <PrintedByUserId>ECLIPSE</PrintedByUserId>    <!-- ED_USER_ID -->
+    <PrintedByApplication>Eterm</PrintedByApplication> <!-- ED_ECLIPSE_APPLICATION -->
+
+    <!-- Ship / Logistics -->
+    <ShipVia>ROK/02</ShipVia>                     <!-- ED_SHIP_VIA -->
+    <ShipBranch>10</ShipBranch>                   <!-- ED_SHIP_BRANCH -->
+    <ShipBranchName>ELK GROVE</ShipBranchName>    <!-- LEDGER-ED_SHIP_BRANCH/ED_DESCRIPTION -->
+    <ShipBranchDescription>ELK GROVE CDC</ShipBranchDescription> <!-- ED_LONG_DESCRIPTION -->
+    <TotalPieces>15</TotalPieces>                 <!-- ED_TOTAL_PIECES -->
+    <TotalWeight>5.4750</TotalWeight>             <!-- ED_TOTAL_WEIGHT -->
+    <TotalLoad>271.5135</TotalLoad>               <!-- ED_TOTAL_LOAD -->
+
+    <!-- Barcode value -->
+    <BarcodeValue>S007686665-001</BarcodeValue>   <!-- ED_UNIQUE_ID -->
+    <BarcodeFlag>1</BarcodeFlag>                  <!-- ED_DI_BARCODE -->
+
+    <!-- Ship-To address & phone -->
+    <ShipToName>AQUA AEROBIC SYSTEMS INC.</ShipToName>
+    <ShipToAddressLine1>6306 N ALPINE RD</ShipToAddressLine1>
+    <ShipToAddressLine2></ShipToAddressLine2>
+    <ShipToAddressLine3></ShipToAddressLine3>
+    <ShipToAddressLine4></ShipToAddressLine4>
+    <ShipToCity>LOVES PARK</ShipToCity>
+    <ShipToState>IL</ShipToState>
+    <ShipToZip>61111-7655</ShipToZip>
+    <ShipToPhone>815-654-2501</ShipToPhone>
+
+    <!-- Customer main -->
+    <CustomerName>AQUA AEROBIC SYSTEMS INC.</CustomerName>
+    <CustomerAddressLine1>6306 N ALPINE RD</CustomerAddressLine1>
+    <CustomerAddressLine2></CustomerAddressLine2>
+    <CustomerAddressLine3></CustomerAddressLine3>
+    <CustomerAddressLine4></CustomerAddressLine4>
+    <CustomerCity>LOVES PARK</CustomerCity>
+    <CustomerState>IL</CustomerState>
+    <CustomerZip>61111-7655</CustomerZip>
+    <CustomerCountry>US</CustomerCountry>
+    <CustomerPhone1>815-654-2501</CustomerPhone1>
+    <CustomerPhone2>815-639-4412</CustomerPhone2>
+    <CustomerPhone3>815-639-4400</CustomerPhone3>
+
+    <!-- Customer Alt Bill-To -->
+    <CustomerAltBillToName>AQUA AEROBIC SYSTEMS INC.</CustomerAltBillToName>
+    <CustomerAltBillToAddressLine1>ATTN: ACCOUNTS PAYABLE</CustomerAltBillToAddressLine1>
+    <CustomerAltBillToAddressLine2>PO BOX 16178</CustomerAltBillToAddressLine2>
+    <CustomerAltBillToAddressLine3></CustomerAltBillToAddressLine3>
+    <CustomerAltBillToAddressLine4></CustomerAltBillToAddressLine4>
+    <CustomerAltBillToCity>LOVES PARK</CustomerAltBillToCity>
+    <CustomerAltBillToState>IL</CustomerAltBillToState>
+    <CustomerAltBillToZip>61132-6178</CustomerAltBillToZip>
+
+    <!-- Warehouse / Ship-From -->
+    <WarehouseName>STEINER ELECTRIC-ELK GROVE</WarehouseName>
+    <WarehouseAddressLine1>1250 TOUHY AVE</WarehouseAddressLine1>
+    <WarehouseAddressLine2>TEST2</WarehouseAddressLine2>
+    <WarehouseAddressLine3>TEST3</WarehouseAddressLine3>
+    <WarehouseAddressLine4>TEST4</WarehouseAddressLine4>
+    <WarehouseCity>ELK GROVE VLG</WarehouseCity>
+    <WarehouseState>IL</WarehouseState>
+    <WarehouseZip>60007-5302</WarehouseZip>
+    <WarehouseCountry>US</WarehouseCountry>
+    <WarehousePhone1>847-228-0400</WarehousePhone1>
+    <WarehousePhone2>847-228-1352</WarehousePhone2>
+
+    <!-- Remit-To -->
+    <RemitToName>STEINER ELECTRIC COMPANY</RemitToName>
+    <RemitToAddressLine1>2665 PAYSPHERE CIRCLE</RemitToAddressLine1>
+    <RemitToAddressLine2></RemitToAddressLine2>
+    <RemitToAddressLine3></RemitToAddressLine3>
+    <RemitToAddressLine4></RemitToAddressLine4>
+    <RemitToCity>CHICAGO</RemitToCity>
+    <RemitToState>IL</RemitToState>
+    <RemitToZip>60674-0026</RemitToZip>
+    <RemitToPhone1>847-228-0400</RemitToPhone1>
+    <RemitToPhone2>847-228-1352</RemitToPhone2>
+    <RemitToPhone3>847-956-3175</RemitToPhone3>
+
+    <!-- Email info -->
+    <EmailTo>amal.ravi@epicor.com</EmailTo>
+    <EmailFrom>customerservice@stnr.com</EmailFrom>
+    <EmailSubject>Shipping Order S007686665.001   PO# 1079191</EmailSubject>
+    <EmailServer>10.10.16.128</EmailServer>
+
+    <!-- Financials / Totals -->
+    <OrderSubtotal>1687.50</OrderSubtotal>        <!-- ED_ORDER_SUBTOTAL -->
+    <OrderTax>0.00</OrderTax>                    <!-- ED_ORDER_TAX -->
+    <OrderFreight>0.00</OrderFreight>            <!-- ED_ORDER_FREIGHT -->
+    <OrderHandling>0.00</OrderHandling>          <!-- ED_ORDER_HANDLING -->
+    <OrderTotal>-1687.50</OrderTotal>            <!-- ED_TOTAL_AMOUNT -->
+    <AmountPaid>-1687.50</AmountPaid>            <!-- ED_AMOUNT_PAID -->
+    <ServiceCharge>0.00</ServiceCharge>          <!-- ED_SERVICE_CHARGE -->
+    <DefaultServiceCharge>1.50</DefaultServiceCharge> <!-- ED_DFLT_SERVICE_CHARGE -->
+    <UnearnAmount>0</UnearnAmount>               <!-- ED_UNEARN_AMOUNT -->
+    <FETAmount>0.00</FETAmount>                  <!-- ED_FET_AMOUNT -->
+    <DiscountAmount>-33.75</DiscountAmount>      <!-- LEDGER-ED_AR_ID/ED_DISCOUNT_AMOUNT -->
+    <DiscountTaken>-33.75</DiscountTaken>        <!-- LEDGER-ED_AR_ID/ED_DISCOUNT_TAKEN -->
+
+    <!-- Footer / Messages -->
+    <ShipInstructions>do NOT ship FEDEX per customer request. Aqua Aerobic part numbers must be placed on every item All Aqua part numbers must be clearly marked on the outside of the package</ShipInstructions>
+    <PickFooterMessage>***NEW!***Shop on-line now at www.steinerelectric.com</PickFooterMessage>
+    <FooterLine1>Merchandise listed on this order has been produced in accordance with the Fair Labor Standards Act of 1938 as amended.</FooterLine1>
+    <FooterLine2>Material not returnable without permission.</FooterLine2>
+    <FooterLine3>Terms and Conditions copy may be obtained by calling 847.228.0400 or at www.steinerelectric.com, which provisions shall govern in the event of any conflict with any Terms and Conditions of Purchaser?s proposal, purchase order, or other documents.</FooterLine3>
+    <FooterLine4>If you make a tax-free purchase that is later determined by a Department of Revenue to be a taxable purchase, you are responsible for all applicable taxes, interest, and penalties.</FooterLine4>
+    <FooterLine5>1.50% PER MONTH FINANCE CHARGE WILL BE ADDED TO ALL PAST DUE INVOICES. THIS IS AN ANNUAL RATE OF 18%</FooterLine5>
+    <FooterFontSize>6</FooterFontSize>
+
+    <!-- Logo (you'll probably change this to an http/https URL) -->
+    <LogoUrl>C:\Eclipse_Forms_Logos\Logo2.bmp</LogoUrl>
+
+    <!-- Line items -->
+    <LineItems>
+
+  <LineItem>
+    <LineId>17</LineId>
+    <LineNumber>1</LineNumber>
+    <ProductNumber>38722</ProductNumber>
+    <Description>OCAL ST1/290-G PVC CTD LT COND CONN</Description>
+	<ProdURL>https://epicor.com</ProdURL>
+    <QtyOrdered>15</QtyOrdered>
+    <QtyShipped>15</QtyShipped>
+    <UnitPrice>112.50</UnitPrice>
+    <ExtendedPrice>1687.50</ExtendedPrice>
+    <PriceUOM>ea</PriceUOM>
+    <ProductLocation>KARDEX</ProductLocation>
+    <ProductZone>2</ProductZone>
+    <ProductPickGroup>A</ProductPickGroup>
+    <ProductImageUrl>https://ideadigitalasset.com/DAMRoot/Original/12207/12056_OLYAGT9M7WRDFS4J.jpg</ProductImageUrl>
+    <UPCPrimary>70450840599</UPCPrimary>
+    <UPCCode2>ST1/290-G</UPCCode2>
+    <UPCLong>704508405991</UPCLong>
+    <ExtendedDescriptionLines>
+      <ExtendedDescriptionLine>OCAL ST1/290-G PVC CTD LT COND CONN</ExtendedDescriptionLine>
+      <ExtendedDescriptionLine>90D 1/2IN DGRY</ExtendedDescriptionLine>
+      <ExtendedDescriptionLine>Your # 2612083</ExtendedDescriptionLine>
+      <ExtendedDescriptionLine>Pn: 38722</ExtendedDescriptionLine>
+    </ExtendedDescriptionLines>
+  </LineItem>
+
+  <LineItem>
+    <LineId>2</LineId>
+    <LineNumber>2</LineNumber>
+    <ProductNumber>206989</ProductNumber>
+    <Description>ECLIPSE TEST 2 - UOM</Description>
+    <QtyOrdered>1</QtyOrdered>
+    <QtyShipped>1</QtyShipped>
+    <UnitPrice>0.55</UnitPrice>
+    <ExtendedPrice>0.55</ExtendedPrice>
+    <PriceUOM>EA</PriceUOM>
+    <ProductLocation></ProductLocation>
+    <ProductZone></ProductZone>
+    <ProductPickGroup></ProductPickGroup>
+    <CustomLocation></CustomLocation>
+    <CustomUPC></CustomUPC>
+    <UPCPrimary>99999206989</UPCPrimary>
+    <ExtendedDescriptionLines>
+      <ExtendedDescriptionLine>Pn: 206989</ExtendedDescriptionLine>
+    </ExtendedDescriptionLines>
+  </LineItem>
+
+  <LineItem>
+    <LineId>18</LineId>
+    <LineNumber>5</LineNumber>
+    <ProductNumber>880299</ProductNumber>
+    <Description>1844PBNL Knob Polished Brass NO</Description>
+    <QtyOrdered>1</QtyOrdered>
+    <QtyShipped>1</QtyShipped>
+    <UnitPrice>41.25</UnitPrice>
+    <ExtendedPrice>41.25</ExtendedPrice>
+    <PriceUOM>ea</PriceUOM>
+    <ProductZone>Z</ProductZone>
+    <ExtendedDescriptionLines>
+      <ExtendedDescriptionLine>Lacquer</ExtendedDescriptionLine>
+      <ExtendedDescriptionLine>* Special Order Non-Returnable *</ExtendedDescriptionLine>
+    </ExtendedDescriptionLines>
+    <OrderTagInfo>
+      <TaggedQuantity>-1</TaggedQuantity>
+      <TaggedOrder>P100060088</TaggedOrder>
+    </OrderTagInfo>
+  </LineItem>
+
+  <LineItem>
+    <LineId>11</LineId>
+    <LineNumber>11</LineNumber>
+    <ProductNumber>7542</ProductNumber>
+    <Description>JUNR6BL</Description>
+    <QtyOrdered>3</QtyOrdered>
+    <QtyShipped>3</QtyShipped>
+    <UnitPrice>25.00</UnitPrice>
+    <ExtendedPrice>75.00</ExtendedPrice>
+    <PriceUOM>ea</PriceUOM>
+    <CustomLocation>A2-I1</CustomLocation>
+    <ProductZone>Z</ProductZone>
+    <ExtendedDescriptionLines>
+      <ExtendedDescriptionLine>R6BL 6' BLACK TRACK R SERIES</ExtendedDescriptionLine>
+      <ExtendedDescriptionLine>Pn: 7542</ExtendedDescriptionLine>
+    </ExtendedDescriptionLines>
+    <CustomUPC>JUNR6BL</CustomUPC>
+  </LineItem>
+
+  <LineItem>
+    <LineId>1</LineId>
+    <LineNumber>1</LineNumber>
+    <ProductNumber>13502</ProductNumber>
+    <Description>JUNT259LG235K80CRI</Description>
+    <QtyOrdered>16</QtyOrdered>
+    <QtyShipped>16</QtyShipped>
+    <UnitPrice>200.00</UnitPrice>
+    <ExtendedPrice>3200.00</ExtendedPrice>
+    <PriceUOM>ea</PriceUOM>
+    <CustomLocation>A3-O1+</CustomLocation>
+    <ProductZone>Z</ProductZone>
+    <ExtendedDescriptionLines>
+      <ExtendedDescriptionLine>T259L G2 35K 80CR1 PDIM BL</ExtendedDescriptionLine>
+      <ExtendedDescriptionLine>BLACK 35K WALL WASHER</ExtendedDescriptionLine>
+      <ExtendedDescriptionLine>Pn: 13502</ExtendedDescriptionLine>
+    </ExtendedDescriptionLines>
+    <CustomUPC>JUNT259LG235K80CRI</CustomUPC>
+  </LineItem>
+
+  <LineItem>
+    <LineId>13</LineId>
+    <LineNumber>13</LineNumber>
+    <ProductNumber>25289</ProductNumber>
+    <Description>JUNR38BL</Description>
+    <QtyOrdered>10</QtyOrdered>
+    <QtyShipped>10</QtyShipped>
+    <UnitPrice>5.00</UnitPrice>
+    <ExtendedPrice>50.00</ExtendedPrice>
+    <PriceUOM>ea</PriceUOM>
+    <CustomLocation>A4-D2</CustomLocation>
+    <CustomUPC>66120903510</CustomUPC>
+    <ProductZone>Z</ProductZone>
+    <ExtendedDescriptionLines>
+      <ExtendedDescriptionLine>JNO R38BL E FEED CNCTR BLK</ExtendedDescriptionLine>
+      <ExtendedDescriptionLine>Pn: 25289</ExtendedDescriptionLine>
+    </ExtendedDescriptionLines>
+    <ProductUPCs>
+      <UPCPrimary>66120903510</UPCPrimary>
+      <UPCAlt>JUNR38BL</UPCAlt>
+    </ProductUPCs>
+  </LineItem>
+
+</LineItems>
+
+  </Order>
+</Orders>
