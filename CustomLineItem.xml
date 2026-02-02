@@ -10,6 +10,7 @@
     <ARId>S007686665.001</ARId>                  <!-- ED_AR_ID -->
 	<ED_LOGO>http://www.epicor.com/globalassets/uploadedimages/shared/epicor-logo.svg</ED_LOGO>
 	<ED_LOGO2>https://ideadigitalasset.com/DAMRoot/Original/12207/12056_OLYAGT9M7WRDFS4J.jpg</ED_LOGO2>
+	<ED_LOGO3>https://github.com/reachingamal/Fluent-test-XML-Hosting/blob/8928ebe905cd39674a4c9412168a7e5391d7c730/EpicorLogo.png</ED_LOGO3>
     
 	<!-- Form / Printing -->
     <FormName>ShipTicketImages0Columns</FormName>  <!-- ED_FORM_BRANCH -->
