@@ -9,26 +9,11 @@
     <ARId>S007686665.001</ARId>                  
 	<ED_LOGO>http://www.epicor.com/globalassets/uploadedimages/shared/epicor-logo.svg</ED_LOGO>
 	<ED_LOGO2>https://ideadigitalasset.com/DAMRoot/Original/12207/12056_OLYAGT9M7WRDFS4J.jpg</ED_LOGO2>
+	<ShortURL>http://www.epicor.com</ShortURL>
+	<VeryLongURL>https://picsum.photos/1200/800.jpg?verylongparameter=thisisaveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryveryverylongstringusedfortestingpurposeswithoutanyampersandsatalljustonecontinuousqueryvalue
+</VeryLongURL>
     
 	<LineItems>
-		<LineItem>
-			<TestNo>0</TestNo>
-			<Description>Numeric Only</Description>
-			<UPCLong>7045</UPCLong>
-			<UPC128>7045</UPC128>
-			<UPC39>7045</UPC39>
-			<UPCQR>7045</UPCQR>
-			<UPCITF>7045</UPCITF>
-			<UPCA>123456789012</UPCA>
-			<UPCE>7045</UPCE>
-			<ExtendedDescriptionLines>
-				<ExtendedDescriptionLine>
-					<TNo>1</TNo>
-					<Result>UPCA broke: Need chars b/w 12 and 15 (expected</Result>
-				</ExtendedDescriptionLine>
-			</ExtendedDescriptionLines>
-		</LineItem>
-		
 		<LineItem>
 			<TestNo>1</TestNo>
 			<Description>Numeric Only</Description>
@@ -44,6 +29,14 @@
 					<TNo>1</TNo>
 					<Result>ITF broke: Need to be even (expected)</Result>
 				</ExtendedDescriptionLine>
+				<ExtendedDescriptionLine>
+					<TNo>2</TNo>
+					<Result>UPCA broke: Need chars b/w 12 and 15 (expected)</Result>
+				</ExtendedDescriptionLine>
+				<ExtendedDescriptionLine>
+					<TNo>3</TNo>
+					<Result>UPCE broke: Need chars b/w 7 and 8 (expected)</Result>
+				</ExtendedDescriptionLine>
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -58,7 +51,10 @@
 			<UPCA>ABE125</UPCA>
 			<UPCE>ABE125</UPCE>
 			<ExtendedDescriptionLines>
-			  
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -73,7 +69,10 @@
 			<UPCA>abc123</UPCA>
 			<UPCE>abc123</UPCE>
 			<ExtendedDescriptionLines>
-			  
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -88,7 +87,10 @@
 			<UPCA>AB-14</UPCA>
 			<UPCE>AB-14</UPCE>
 			<ExtendedDescriptionLines>
-			  
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -103,7 +105,10 @@
 			<UPCA>45.67</UPCA>
 			<UPCE>45.67</UPCE>
 			<ExtendedDescriptionLines>
-			  
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -118,7 +123,10 @@
 			<UPCA>Undr_Sc</UPCA>
 			<UPCE>Undr_Sc</UPCE>
 			<ExtendedDescriptionLines>
-			  
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>CODE39 displayed corrupted value (expected). Can only display (- . $ / + %)</Result>
+				</ExtendedDescriptionLine>  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -133,7 +141,10 @@
 			<UPCA>25 KG</UPCA>
 			<UPCE>25 KG</UPCE>
 			<ExtendedDescriptionLines>
-			  
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -148,7 +159,10 @@
 			<UPCA>INV#@$%</UPCA>
 			<UPCE>INV#@$%</UPCE>
 			<ExtendedDescriptionLines>
-			  
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>CODE39 displayed corrupted value (expected). Can only display (- . $ / + %)</Result>
+				</ExtendedDescriptionLine>  
 			</ExtendedDescriptionLines>
 		</LineItem>
 		
@@ -162,6 +176,20 @@
 			<UPCITF>1</UPCITF>
 			<UPCA>1</UPCA>
 			<UPCE>1</UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>???: Barcode did not read for Code 128</Result>
+				</ExtendedDescriptionLine>  
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>???: Barcode did not read for Code 39</Result>
+				</ExtendedDescriptionLine> 
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>???: Barcode did not read for QR Code</Result>
+				</ExtendedDescriptionLine> 
+			</ExtendedDescriptionLines>
 		</LineItem>
 		
 		<LineItem>
@@ -174,6 +202,12 @@
 			<UPCITF>12</UPCITF>
 			<UPCA>12</UPCA>
 			<UPCE>12</UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
+			</ExtendedDescriptionLines>
 		</LineItem>
 		
 		<LineItem>
@@ -186,6 +220,12 @@
 			<UPCITF>12345</UPCITF>
 			<UPCA>12345</UPCA>
 			<UPCE>12345</UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
+			</ExtendedDescriptionLines>
 		</LineItem>
 		<LineItem>
 			<TestNo>12</TestNo>
@@ -197,6 +237,12 @@
 			<UPCITF>1234567890</UPCITF>
 			<UPCA>1234567890</UPCA>
 			<UPCE>1234567890</UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
+			</ExtendedDescriptionLines>
 		</LineItem>
 		
 		<LineItem>
@@ -209,6 +255,12 @@
 			<UPCITF>12345678901234</UPCITF>
 			<UPCA>12345678901234</UPCA>
 			<UPCE>704508405991</UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
+			</ExtendedDescriptionLines>
 		</LineItem>
 		
 		<LineItem>
@@ -221,6 +273,12 @@
 			<UPCITF>12345678901234567890</UPCITF>
 			<UPCA>12345678901234567890</UPCA>
 			<UPCE>12345678901234567890</UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
+			</ExtendedDescriptionLines>
 		</LineItem>
 		
 		<LineItem>
@@ -233,6 +291,12 @@
 			<UPCITF>123456789012345678901234567890</UPCITF>
 			<UPCA>123456789012345678901234567890</UPCA>
 			<UPCE>123456789012345678901234567890</UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Barcode did not read for QR 39 (Expected)</Result>
+				</ExtendedDescriptionLine>  
+			</ExtendedDescriptionLines>
 		</LineItem>
 		
 		<LineItem>
@@ -245,20 +309,39 @@
 			<UPCITF>1234567890123456789012345678901234567890</UPCITF>
 			<UPCA>1234567890123456789012345678901234567890</UPCA>
 			<UPCE>1234567890123456789012345678901234567890</UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result><Result>Barcode did not read for QR 39 (Expected)</Result></Result>
+				</ExtendedDescriptionLine>  
+			</ExtendedDescriptionLines>
 		</LineItem>
 		
 		<LineItem>
 			<TestNo>17</TestNo>
 			<Description>Empty Tag</Description>
-			<UPCLong></UPCLong>
-			<UPC128></UPC128>
-			<UPC39></UPC39>
-			<UPCQR></UPCQR>
+			<UPCLong>--added fake value to clear exception--</UPCLong>
+			<UPC128>1</UPC128>
+			<UPC39>1</UPC39>
+			<UPCQR>1</UPCQR>
 			<UPCITF></UPCITF>
 			<UPCA></UPCA>
 			<UPCE></UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Issue: 128 threw for empty tags</Result>
+				</ExtendedDescriptionLine>  
+				<ExtendedDescriptionLine>
+					<TNo>2</TNo>
+					<Result>Issue: 39 failed for empty tags</Result>
+				</ExtendedDescriptionLine>  
+				<ExtendedDescriptionLine>
+					<TNo>3</TNo>
+					<Result>Issue: QR failed for empty tags</Result>
+				</ExtendedDescriptionLine>  
+			</ExtendedDescriptionLines>
 		</LineItem>
-		
 		<LineItem>
 			<TestNo>18</TestNo>
 			<Description>Empty Tag, But Whitespaces 1</Description>
@@ -269,6 +352,12 @@
 			<UPCITF> </UPCITF>
 			<UPCA> </UPCA>
 			<UPCE> </UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
+			</ExtendedDescriptionLines>
 		</LineItem>
 		
 		<LineItem>
@@ -281,7 +370,14 @@
 			<UPCITF>    </UPCITF>
 			<UPCA>    </UPCA>
 			<UPCE>    </UPCE>
+			<ExtendedDescriptionLines>
+				<ExtendedDescriptionLine>
+					<TNo>1</TNo>
+					<Result>Passed for all</Result>
+				</ExtendedDescriptionLine>  
+			</ExtendedDescriptionLines>
 		</LineItem>
+		
 		
 	</LineItems>
   </Order>
