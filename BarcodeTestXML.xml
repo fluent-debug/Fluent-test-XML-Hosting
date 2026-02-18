@@ -14,7 +14,7 @@
 	<GS1Test>0109501101530003</GS1Test>
 	<GS1Test2>(01)09501101530003</GS1Test2>
 	<Variable-Length>(10)ABC123(17)241231</Variable-Length>
-	<Variable-Length>10ABC12317241231</Variable-Length>
+	<Variable-Length1>10ABC12317241231</Variable-Length1>
 	  
 	<TLDR>
 		<Test>
@@ -415,4 +415,5 @@
 	</LineItems>
   </Order>
 </Orders>
+
 
